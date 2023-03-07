@@ -1,4 +1,4 @@
-### First meeting
+# First meeting
 
 ## Ideas
 
