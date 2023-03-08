@@ -2,13 +2,13 @@
 
 ## Ideas
 
- - teaching about BINFO in a style of solorean.com
- - memory style game regarding BINFO
- - general style quiz of BINFO
- - maze game where hitting walls lead to questions regarding BINFO
- - pacman where fruits have questions regarding BINFO
- - using retro games to promote BINFO
- - jeopardy BINFO quiz
+ - Teaching about BINFO in a style of solorean.com
+ - Memory style game regarding BINFO
+ - General style quiz of BINFO
+ - Maze game where hitting walls lead to questions regarding BINFO
+ - Pac-Man where fruits have questions regarding BINFO
+ - Using retro games to promote BINFO
+ - Jeopardy BINFO quiz
 
 
 ## After Brainstorming
