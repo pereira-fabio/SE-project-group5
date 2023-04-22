@@ -74,8 +74,18 @@ public class Piece : MonoBehaviour
     }
 
     public void Rotate(int direction){
+        int originalRotation = this.rotationIndex;
         this.rotationIndex = Wrap(this.rotationIndex + direction, 0 , 4);
 
+        ApplyRotationMatrix(direction);
+
+        if(!TestWallKicks(this.rotationIndex, direction)){
+            this.rotationIndex = originalRotation;
+            ApplyRotationMatrix(-direction);
+        }
+    }
+
+    public void ApplyRotationMatrix(int direction){
         for (int i = 0; i < this.cells.Length; i++)
         {
             Vector3 cell = this.cells[i];
@@ -99,6 +109,31 @@ public class Piece : MonoBehaviour
 
             this.cells[i] = new Vector3Int(x, y, 0);
         }
+
+    }
+
+    public bool TestWallKicks(int rotationIndex, int roationDirection){
+        int wallkickIndex = GetWallKicksIndex(rotationIndex, roationDirection);
+
+        for (int i = 0; i < this.data.wallkicks.GetLength(1); i++)
+        {
+            Vector2Int translation = this.data.wallkicks[wallkickIndex, i];
+            if (Move(translation))
+            {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    private int GetWallKicksIndex(int rotationIndex, int roationDirection){
+        int wallkickIndex = rotationIndex * 2;
+
+        if (roationDirection < 0)
+        {
+            wallkickIndex--;
+        }
+        return Wrap(wallkickIndex, 0, this.data.wallkicks.GetLength(0));
     }
 
     // makes sure that the roation does not accure out of bounds
