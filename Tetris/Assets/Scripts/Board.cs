@@ -4,9 +4,14 @@ public class Board : MonoBehaviour
 {
     public TetrominoData[] tetrominos;
     public Piece activePiece { get; private set; }
+    public Piece nextPiece { get; private set; }  
+    public Piece savedPiece { get; private set; } 
+
     public Tilemap tilemap { get; private set; }
     public Vector3Int spawnPosition;
     public Vector2Int boardSize = new Vector2Int(10,20);
+    public Vector3Int previewPosition = new Vector3Int(-1, 12, 0); 
+    public Vector3Int holdPosition = new Vector3Int(-1, 16, 0);    
 
     public RectInt Bounds{
         get{
@@ -20,6 +25,13 @@ public class Board : MonoBehaviour
     {
         this.tilemap = GetComponentInChildren<Tilemap>();
         this.activePiece = GetComponentInChildren<Piece>();
+
+        nextPiece = gameObject.AddComponent<Piece>();
+        nextPiece.enabled = false;
+
+        savedPiece = gameObject.AddComponent<Piece>();
+        savedPiece.enabled = false;
+
         for(int i = 0; i < this.tetrominos.Length; i++){
             this.tetrominos[i].Initialize();
         }
@@ -27,29 +39,81 @@ public class Board : MonoBehaviour
 
     private void Start()
     {
+        SetNextPiece();
         SpawnPiece();
     }
 
+    private void SetNextPiece()
+    {
+        // Clear the existing piece from the board
+        if (nextPiece.cells != null) {
+            Clear(nextPiece);
+        }
+
+        // Pick a random tetromino to use
+        int random = Random.Range(0, tetrominos.Length);
+        TetrominoData data = tetrominos[random];
+
+        // Initialize the next piece with the random data
+        // Draw it at the "preview" position on the board
+        nextPiece.Initialize(this, previewPosition, data);
+        Set(nextPiece);
+    }
+    
     public void SpawnPiece()
     {
-        int random = Random.Range(0, this.tetrominos.Length);
-        TetrominoData data = this.tetrominos[random];
+        // Initialize the active piece with the next piece data
+        activePiece.Initialize(this, spawnPosition, nextPiece.data);
 
-        this.activePiece.Initialize(this, this.spawnPosition, data);
-
-        if (IsValidPos(this.activePiece, this.spawnPosition))
-        {
-            Set(this.activePiece);
-        }else{
+        // Only spawn the piece if valid position otherwise game over
+        if (IsValidPos(activePiece, spawnPosition)) {
+            Set(activePiece);
+        } else {
             GameOver();
         }
 
-        Set(this.activePiece);
+        // Set the next random piece
+        SetNextPiece();
     }
+
+    public void SwapPiece()
+    {
+        // Temporarily store the current saved data so we can swap
+        TetrominoData savedData = savedPiece.data;
+
+        // Clear the existing saved piece from the board
+        if (savedData.cells != null) {
+            Clear(savedPiece);
+        }
+
+        // Store the next piece as the new saved piece
+        // Draw this piece at the "hold" position on the board
+        savedPiece.Initialize(this, holdPosition, nextPiece.data);
+        Set(savedPiece);
+
+        // Swap the saved piece to be the next piece
+        if (savedData.cells != null)
+        {
+            // Clear the existing next piece before swapping
+            Clear(nextPiece);
+
+            // Re-initialize the next piece with the saved data
+            // Draw this piece at the "preview" position on the board
+            nextPiece.Initialize(this, previewPosition, savedData);
+            Set(nextPiece);
+        }
+    }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.LeftShift) || Input.GetKeyDown(KeyCode.RightShift)) {
+            SwapPiece();
+        }
+    }
+
 
     public void GameOver(){
         this.tilemap.ClearAllTiles();
-
         // todo
     }
 
