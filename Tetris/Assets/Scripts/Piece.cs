@@ -25,14 +25,22 @@ public class Piece : MonoBehaviour
     }
 
     public void Update(){
+        this.board.Clear(this);
+
         if(Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow)){
             Move(Vector2Int.left);
         }else if (Input.GetKeyDown(KeyCode.D) ||Input.GetKeyDown(KeyCode.RightArrow)){
             Move(Vector2Int.right);
         }
+
+        if(Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow)){
+            Move(Vector2Int.down);
+        }
+
+        this.board.Set(this);
     }
 
-    private void Move(Vector2Int translation){
+    private bool Move(Vector2Int translation){
         Vector3Int newPos = this.position;
         newPos.x += translation.x;
         newPos.y += translation.y;

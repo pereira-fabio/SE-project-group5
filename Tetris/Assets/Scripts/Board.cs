@@ -11,7 +11,7 @@ public class Board : MonoBehaviour
     public RectInt Bounds{
         get{
             Vector2Int position = new Vector2Int(-this.boardSize.x / 2, -this.boardSize.y /2);
-            return new RectInt(position, this.boardSize)
+            return new RectInt(position, this.boardSize);
         }
     }
 
@@ -60,7 +60,8 @@ public class Board : MonoBehaviour
     public bool IsValidPos(Piece piece, Vector3Int position)
     {
         RectInt bounds = this.Bounds;
-        for (int i = 0; i < piece.cells.length; i++)
+
+        for (int i = 0; i < piece.cells.Length; i++)
         {
             Vector3Int tilePosition = piece.cells[i] + position;
 
