@@ -59,7 +59,7 @@ public class Piece : MonoBehaviour
             HardDrop();
         }
 
-        if (Time.time>=this.stepTime)
+        if (Time.time >= this.stepTime)
         {
             Step();
         }
@@ -78,6 +78,7 @@ public class Piece : MonoBehaviour
 
     public void Lock(){
         this.board.Set(this);
+        this.board.ClearLines();
         this.board.SpawnPiece();
     }
 
