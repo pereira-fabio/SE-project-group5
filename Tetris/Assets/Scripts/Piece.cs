@@ -6,6 +6,7 @@ public class Piece : MonoBehaviour
     public Vector3Int position { get; private set; }
     public TetrominoData data { get; private set; }
     public Vector3Int[] cells { get; private set; }
+
     public void Initialize(Board board, Vector3Int position, TetrominoData data)
     {
         this.board = board;
@@ -21,5 +22,27 @@ public class Piece : MonoBehaviour
         {
             this.cells[i] = (Vector3Int)data.cells[i];
         }
+    }
+
+    public void Update(){
+        if(Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow)){
+            Move(Vector2Int.left);
+        }else if (Input.GetKeyDown(KeyCode.D) ||Input.GetKeyDown(KeyCode.RightArrow)){
+            Move(Vector2Int.right);
+        }
+    }
+
+    private void Move(Vector2Int translation){
+        Vector3Int newPos = this.position;
+        newPos.x += translation.x;
+        newPos.y += translation.y;
+
+        bool valid = this.board.IsValidPos(this,newPos);
+
+        if(valid){
+            this.position = newPos;
+        }
+
+        return valid;
     }
 }
