@@ -27,6 +27,12 @@ public class Piece : MonoBehaviour
     public void Update(){
         this.board.Clear(this);
 
+        if(Input.GetKeyDown(KeyCode.Q)){//left rot
+            Rotate(-1);
+        }else if(Input.GetKeyDown(KeyCode.E)){// right rot 
+            Rotate(1);
+        }
+
         if(Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow)){
             Move(Vector2Int.left);
         }else if (Input.GetKeyDown(KeyCode.D) ||Input.GetKeyDown(KeyCode.RightArrow)){
@@ -37,7 +43,19 @@ public class Piece : MonoBehaviour
             Move(Vector2Int.down);
         }
 
+        if(Input.GetKeyDown(KeyCode.Space)){
+            HardDrop();
+        }
+
         this.board.Set(this);
+    }
+
+    public void HardDrop(){
+        //will do the down movement as lonf it hit the fist thing 
+        while (Move(Vector2Int.down))
+        {
+            continue;
+        }
     }
 
     private bool Move(Vector2Int translation){
@@ -53,4 +71,6 @@ public class Piece : MonoBehaviour
 
         return valid;
     }
+
+    public void Rotate()
 }
