@@ -48,6 +48,15 @@ public class Board : MonoBehaviour
         }
     }
 
+    public void Clear(Piece piece)
+    {
+        for (int i = 0; i < piece.cells.Length; i++)
+        {
+            Vector3Int tilePosition = piece.cells[i] + piece.position;
+            this.tilemap.SetTile(tilePosition, null);
+        }
+    }
+
     public bool IsValidPos(Piece piece, Vector3Int position)
     {
         RectInt bounds = this.Bounds;
