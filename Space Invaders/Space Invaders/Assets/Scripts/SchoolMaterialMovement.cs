@@ -4,7 +4,10 @@ using UnityEngine;
 
 public class SchoolMaterialMovement : MonoBehaviour
 {
+    // speed of the object
     public float speed = 2f;
+    public float difficulty = 1f;
+    
     // Start is called before the first frame update
     void Start()
     {
