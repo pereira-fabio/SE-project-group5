@@ -81,27 +81,24 @@ public class Board : MonoBehaviour
         // Temporarily store the current saved data so we can swap
         TetrominoData savedData = savedPiece.data;
 
-        // Clear the existing saved piece from the board
+        // Clear the existing piece from the board
         if (savedData.cells != null) {
             Clear(savedPiece);
         }
 
         // Store the next piece as the new saved piece
         // Draw this piece at the "hold" position on the board
-        savedPiece.Initialize(this, holdPosition, nextPiece.data);
+        savedPiece.Initialize(this, holdPosition, activePiece.data);
         Set(savedPiece);
 
-        // Swap the saved piece to be the next piece
         if (savedData.cells != null)
         {
-            // Clear the existing next piece before swapping
-            Clear(nextPiece);
+            Clear(activePiece);
 
-            // Re-initialize the next piece with the saved data
-            // Draw this piece at the "preview" position on the board
-            nextPiece.Initialize(this, previewPosition, savedData);
+            activePiece.Initialize(this, spawnPosition, savedData);
             Set(nextPiece);
         }
+        
     }
 
     private void Update()
@@ -207,4 +204,3 @@ public class Board : MonoBehaviour
         }
     }
 }
-
