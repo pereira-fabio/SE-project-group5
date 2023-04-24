@@ -868,7 +868,7 @@ MonoBehaviour:
     tile: {fileID: 11400000, guid: 3c529b3d1aff1f142952806196d3dda0, type: 2}
   - tetromino: 6
     tile: {fileID: 11400000, guid: 98b2f82d000a88a4d8625b515bf99268, type: 2}
-  spawnPosition: {x: 0, y: 8, z: 0}
+  spawnPosition: {x: -1, y: 8, z: 0}
   boardSize: {x: 10, y: 20}
   previewPosition: {x: 8, y: 7, z: 0}
   holdPosition: {x: -10, y: 7, z: 0}
