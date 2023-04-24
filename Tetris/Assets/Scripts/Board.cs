@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.Tilemaps;
 public class Board : MonoBehaviour
 {
@@ -11,7 +12,14 @@ public class Board : MonoBehaviour
     public Vector3Int spawnPosition;
     public Vector2Int boardSize = new Vector2Int(10,20);
     public Vector3Int previewPosition = new Vector3Int(-1, 12, 0); 
-    public Vector3Int holdPosition = new Vector3Int(-1, 16, 0);    
+    public Vector3Int holdPosition = new Vector3Int(-1, 16, 0);
+
+    public static int scoreOneLine = 40;
+    public static int scoreTwoLine = 100;
+    public static int scoreThreeLine = 300;
+    public static int scoreFourLine = 1200;    
+    public int currentScore = 0;
+    public Text scoreText;
 
     public RectInt Bounds{
         get{
@@ -90,7 +98,7 @@ public class Board : MonoBehaviour
         // Draw this piece at the "hold" position on the board
         savedPiece.Initialize(this, holdPosition, activePiece.data);
         Set(savedPiece);
-        
+
         if (savedData.cells != null)
         {
             Clear(activePiece);
@@ -106,6 +114,8 @@ public class Board : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.LeftShift) || Input.GetKeyDown(KeyCode.RightShift)) {
             SwapPiece();
         }
+
+        UpdateUI();
     }
 
 
@@ -152,19 +162,40 @@ public class Board : MonoBehaviour
         return true;
     }
 
+    public void Points(int nbrOfRows){
+        if(nbrOfRows>0){
+            if(nbrOfRows == 1){
+                currentScore += scoreOneLine;
+            } else if (nbrOfRows == 2){
+                currentScore += scoreTwoLine;
+            } else if (nbrOfRows == 3){
+                currentScore += scoreThreeLine;
+            } else if (nbrOfRows == 4){
+                currentScore += scoreFourLine;
+            }
+        }
+    }
+
+    public void UpdateUI(){
+        scoreText.text = currentScore.ToString();
+    }
+
     public void ClearLines(){
         RectInt bounds = this.Bounds;
         int row = bounds.yMin;
+        int nbrOfRows = 0;
 
         while (row < bounds.yMax)
         {
             if (IsLineFull(row))
             {
                 LineClear(row);
+                nbrOfRows++;
             }else{
                 row++;
             }
         }
+        Points(nbrOfRows);
 
     }
 
