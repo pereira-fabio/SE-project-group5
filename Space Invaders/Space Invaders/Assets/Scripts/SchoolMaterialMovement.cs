@@ -6,7 +6,6 @@ public class SchoolMaterialMovement : MonoBehaviour
 {
     // speed of the object
     public float speed = 2f;
-    public float difficulty = 1f;
     
     // Start is called before the first frame update
     void Start()
@@ -17,7 +16,6 @@ public class SchoolMaterialMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
         transform.Translate(Vector2.right * Time.deltaTime * speed);
     }
 
