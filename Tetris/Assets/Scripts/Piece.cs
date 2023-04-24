@@ -67,26 +67,8 @@ public class Piece : MonoBehaviour
         this.board.Set(this);
     }
     public void UpdateSpeed(){
-        if(board.clearedLines >= 10){
-            SetStepDelay(0.9f);
-        } else if(board.clearedLines >= 20 && board.clearedLines < 30){
-            SetStepDelay(0.8f);
-        } else if(board.clearedLines >= 30 && board.clearedLines < 40){
-            SetStepDelay(0.7f);
-        } else if(board.clearedLines >= 40 && board.clearedLines < 50){
-            SetStepDelay(0.6f);
-        } else if(board.clearedLines >= 50 && board.clearedLines < 60){
-            SetStepDelay(0.5f);
-        } else if(board.clearedLines >= 60 && board.clearedLines < 70){
-            SetStepDelay(0.4f);
-        } else if(board.clearedLines >= 70 && board.clearedLines < 80){
-            SetStepDelay(0.3f);
-        } else if(board.clearedLines >= 80 && board.clearedLines < 90){
-            SetStepDelay(0.2f);
-        } else if(board.clearedLines >= 90 && board.clearedLines < 100){
-            SetStepDelay(0.1f);
-        } else if(board.clearedLines >= 100){
-            SetStepDelay(0.05f);
+        if(board.clearedLines%10 == 0 && board.clearedLines!=0){
+            SetStepDelay(stepDelay-0.1f);
         }
     }
 
