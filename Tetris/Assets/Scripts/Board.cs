@@ -90,7 +90,7 @@ public class Board : MonoBehaviour
         // Draw this piece at the "hold" position on the board
         savedPiece.Initialize(this, holdPosition, activePiece.data);
         Set(savedPiece);
-
+        
         if (savedData.cells != null)
         {
             Clear(activePiece);
