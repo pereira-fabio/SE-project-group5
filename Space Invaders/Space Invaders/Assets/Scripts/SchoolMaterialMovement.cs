@@ -17,7 +17,7 @@ public class SchoolMaterialMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // move the object to the right
+        
         transform.Translate(Vector2.right * Time.deltaTime * speed);
     }
 
