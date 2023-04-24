@@ -19,7 +19,10 @@ public class Board : MonoBehaviour
     public static int scoreThreeLine = 300;
     public static int scoreFourLine = 1200;    
     public int currentScore = 0;
+    public int clearedLines = 0;
+    public int level = 1;
     public Text scoreText;
+    public Text levelText;
 
     public RectInt Bounds{
         get{
@@ -114,7 +117,6 @@ public class Board : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.LeftShift) || Input.GetKeyDown(KeyCode.RightShift)) {
             SwapPiece();
         }
-
         UpdateUI();
     }
 
@@ -176,8 +178,17 @@ public class Board : MonoBehaviour
         }
     }
 
+    public void SetLevel(){
+        if(clearedLines%10 == 0){
+            level++;
+        }
+    }
+    public int GetLevel(){
+        return level;
+    }
     public void UpdateUI(){
         scoreText.text = currentScore.ToString();
+        levelText.text = GetLevel().ToString();
     }
 
     public void ClearLines(){
@@ -191,12 +202,13 @@ public class Board : MonoBehaviour
             {
                 LineClear(row);
                 nbrOfRows++;
+                clearedLines++;
             }else{
                 row++;
             }
         }
+        SetLevel();
         Points(nbrOfRows);
-
     }
 
     public bool IsLineFull(int row){
