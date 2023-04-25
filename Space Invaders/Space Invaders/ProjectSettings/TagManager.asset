@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Limit
   - Enemy
+  - TopDownLimit
+  - Plane
   layers:
   - Default
   - TransparentFX

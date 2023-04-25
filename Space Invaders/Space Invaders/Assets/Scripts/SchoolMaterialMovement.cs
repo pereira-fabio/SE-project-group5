@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class SchoolMaterialMovement : MonoBehaviour
 {
@@ -20,12 +21,20 @@ public class SchoolMaterialMovement : MonoBehaviour
     }
 
     private void OnTriggerEnter2D(Collider2D other) {
-        // check if the object that collided with this object has the tag "Limit"
+
+        //Check if there's a collision with the object
+
+        // check if the object that collided with this object has the tag "Limit" and also if "Enemy" is not the tag of the object that collided with this object
         if (other.gameObject.tag == "Limit") {
             //Change the position to go down
-            transform.position = new Vector3(transform.position.x, transform.position.y -1, transform.position.z);
+            transform.position = new Vector3(transform.position.x, transform.position.y -3, transform.position.z);
             // if it does, change the direction of the movement
             speed = -speed;
+        }
+
+        // Check for collision with "TopDownLimit" tag and delete the object
+        if (other.gameObject.tag == "TopDownLimit") {
+            Destroy(gameObject);
         }
     }
 }

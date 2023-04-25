@@ -21,11 +21,4 @@ public class PlaneAmmunition : MonoBehaviour
             newAmmunition.GetComponent<Rigidbody2D>().AddForce(Vector2.up * 10, ForceMode2D.Impulse);
         }
     }
-
-    private void OnTriggerEnter2D(Collider2D other) {
-        if(other.gameObject.tag == "Enemy") {
-            Destroy(other.gameObject);
-            Destroy(gameObject);
-        }
-    }
 }
