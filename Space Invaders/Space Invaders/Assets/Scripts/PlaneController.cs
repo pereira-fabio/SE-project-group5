@@ -15,6 +15,8 @@ public class PlaneController : MonoBehaviour
     public AudioSource explosionSource;
     //Add an explosion sound source
     public AudioClip explosionSound;
+    //Call up GameOverPanel
+    public GameOverPanel gameOverPanel;
 
     // Start is called before the first frame update
     void Start()
@@ -75,6 +77,10 @@ public class PlaneController : MonoBehaviour
         // if the lives are 0 or less, destroy the plane
         if(lives <= 0) {
             Destroy(gameObject);
+            //Freeze the game
+            Time.timeScale = 0;
+            //Introduce GameOverPanel
+            gameOverPanel.Setup();
         }
     }
 

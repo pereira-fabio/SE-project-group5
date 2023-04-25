@@ -194,6 +194,14 @@ PrefabInstance:
       propertyPath: m_Offset.y
       value: 0.019965053
       objectReference: {fileID: 0}
+    - target: {fileID: 3751286432772687444, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 3751286432772687444, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 3751286432772687451, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
       propertyPath: m_Name
       value: spaceInvadersPen (1)
@@ -275,6 +283,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7132997323116186285, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 7132997323116186285, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 7132997323278469368, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
       propertyPath: m_Name
       value: spaceInvadersBook (2)
@@ -297,6 +313,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: spaceInvadersTriangle (35)
       objectReference: {fileID: 0}
+    - target: {fileID: 3017068564540264707, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 3017068564540264707, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 3017068564540264952, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
       propertyPath: m_Size.x
       value: 1.9492276
@@ -438,6 +462,14 @@ PrefabInstance:
       propertyPath: m_Offset.y
       value: 0.019965053
       objectReference: {fileID: 0}
+    - target: {fileID: 3751286432772687444, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 3751286432772687444, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 3751286432772687451, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
       propertyPath: m_Name
       value: spaceInvadersPen (2)
@@ -460,6 +492,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: spaceInvadersTriangle (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 3017068564540264707, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 3017068564540264707, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 3017068564540264952, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
       propertyPath: m_Size.x
       value: 1.9492276
@@ -541,6 +581,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: spaceInvadersTriangle (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 3017068564540264707, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 3017068564540264707, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 3017068564540264952, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
       propertyPath: m_Size.x
       value: 1.9492276
@@ -692,6 +740,14 @@ PrefabInstance:
       propertyPath: m_Offset.y
       value: 0.019965053
       objectReference: {fileID: 0}
+    - target: {fileID: 3751286432772687444, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 3751286432772687444, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 3751286432772687451, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
       propertyPath: m_Name
       value: spaceInvadersPen (32)
@@ -769,6 +825,14 @@ PrefabInstance:
       propertyPath: m_Offset.y
       value: 0.019965053
       objectReference: {fileID: 0}
+    - target: {fileID: 3751286432772687444, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 3751286432772687444, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 3751286432772687451, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
       propertyPath: m_Name
       value: spaceInvadersPen (8)
@@ -851,6 +915,14 @@ PrefabInstance:
       propertyPath: m_Offset.y
       value: 0.019965053
       objectReference: {fileID: 0}
+    - target: {fileID: 3751286432772687444, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 3751286432772687444, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 3751286432772687451, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
       propertyPath: m_Name
       value: spaceInvadersPen (15)
@@ -932,6 +1004,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7132997323116186285, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 7132997323116186285, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 7132997323278469368, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
       propertyPath: m_Name
       value: spaceInvadersBook (39)
@@ -1013,6 +1093,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7132997323116186285, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 7132997323116186285, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 7132997323278469368, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
       propertyPath: m_Name
       value: spaceInvadersBook (23)
@@ -1074,7 +1162,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 639.3338, y: 395.12274}
+  m_AnchoredPosition: {x: 427, y: 455}
   m_SizeDelta: {x: 145.2243, y: 46.13}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &156633940
@@ -1250,6 +1338,14 @@ PrefabInstance:
       propertyPath: m_Offset.y
       value: 0.019965053
       objectReference: {fileID: 0}
+    - target: {fileID: 3751286432772687444, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 3751286432772687444, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 3751286432772687451, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
       propertyPath: m_Name
       value: spaceInvadersPen (30)
@@ -1331,6 +1427,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7132997323116186285, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 7132997323116186285, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 7132997323278469368, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
       propertyPath: m_Name
       value: spaceInvadersBook (29)
@@ -1348,6 +1452,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: spaceInvadersTriangle (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 3017068564540264707, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 3017068564540264707, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 3017068564540264952, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
       propertyPath: m_Size.x
       value: 1.9492276
@@ -1503,6 +1615,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7132997323116186285, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 7132997323116186285, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 7132997323278469368, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
       propertyPath: m_Name
       value: spaceInvadersBook (7)
@@ -1550,6 +1670,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: spaceInvadersTriangle (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 3017068564540264707, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 3017068564540264707, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 3017068564540264952, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
       propertyPath: m_Size.x
       value: 1.9492276
@@ -1631,6 +1759,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: spaceInvadersTriangle (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 3017068564540264707, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 3017068564540264707, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 3017068564540264952, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
       propertyPath: m_Size.x
       value: 1.9492276
@@ -1717,6 +1853,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: spaceInvadersTriangle (34)
       objectReference: {fileID: 0}
+    - target: {fileID: 3017068564540264707, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 3017068564540264707, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 3017068564540264952, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
       propertyPath: m_Size.x
       value: 1.9492276
@@ -1888,6 +2032,14 @@ PrefabInstance:
       propertyPath: m_Offset.y
       value: 0.019965053
       objectReference: {fileID: 0}
+    - target: {fileID: 3751286432772687444, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 3751286432772687444, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 3751286432772687451, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
       propertyPath: m_Name
       value: spaceInvadersPen (20)
@@ -1974,6 +2126,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7132997323116186285, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 7132997323116186285, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 7132997323278469368, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
       propertyPath: m_Name
       value: spaceInvadersBook (15)
@@ -1991,6 +2151,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: spaceInvadersTriangle (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 3017068564540264707, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 3017068564540264707, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 3017068564540264952, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
       propertyPath: m_Size.x
       value: 1.9492276
@@ -2137,6 +2305,14 @@ PrefabInstance:
       propertyPath: m_Offset.y
       value: 0.019965053
       objectReference: {fileID: 0}
+    - target: {fileID: 3751286432772687444, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 3751286432772687444, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 3751286432772687451, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
       propertyPath: m_Name
       value: spaceInvadersPen (39)
@@ -2178,7 +2354,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 714.85046, y: 400.80005}
+  m_AnchoredPosition: {x: 502.5166, y: 460.67728}
   m_SizeDelta: {x: 42.7784, y: 44.0068}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &330842321
@@ -2300,6 +2476,14 @@ PrefabInstance:
       propertyPath: m_Offset.y
       value: 0.019965053
       objectReference: {fileID: 0}
+    - target: {fileID: 3751286432772687444, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 3751286432772687444, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 3751286432772687451, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
       propertyPath: m_Name
       value: spaceInvadersPen (29)
@@ -2381,6 +2565,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7132997323116186285, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 7132997323116186285, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 7132997323278469368, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
       propertyPath: m_Name
       value: spaceInvadersBook (6)
@@ -2458,6 +2650,14 @@ PrefabInstance:
       propertyPath: m_Offset.y
       value: 0.019965053
       objectReference: {fileID: 0}
+    - target: {fileID: 3751286432772687444, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 3751286432772687444, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 3751286432772687451, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
       propertyPath: m_Name
       value: spaceInvadersPen (7)
@@ -2535,6 +2735,14 @@ PrefabInstance:
       propertyPath: m_Offset.y
       value: 0.019965053
       objectReference: {fileID: 0}
+    - target: {fileID: 3751286432772687444, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 3751286432772687444, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 3751286432772687451, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
       propertyPath: m_Name
       value: spaceInvadersPen (27)
@@ -2616,12 +2824,155 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7132997323116186285, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 7132997323116186285, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 7132997323278469368, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
       propertyPath: m_Name
       value: spaceInvadersBook (16)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
+--- !u!1 &369702524
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 369702525}
+  - component: {fileID: 369702527}
+  - component: {fileID: 369702526}
+  m_Layer: 5
+  m_Name: GameOverText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &369702525
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 369702524}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1503701863}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 126, y: 170}
+  m_SizeDelta: {x: 647.341, y: 206.1527}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &369702526
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 369702524}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: GAME OVER
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190335
+  m_fontColor: {r: 1, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 100
+  m_fontSizeBase: 100
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 1
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: -694.79755, y: 0, z: -440.36478, w: 91.334816}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &369702527
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 369702524}
+  m_CullTransparentMesh: 1
 --- !u!4 &377231957 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3751286432772687440, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
@@ -2703,6 +3054,14 @@ PrefabInstance:
       propertyPath: m_Offset.y
       value: 0.019965053
       objectReference: {fileID: 0}
+    - target: {fileID: 3751286432772687444, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 3751286432772687444, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 3751286432772687451, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
       propertyPath: m_Name
       value: spaceInvadersPen (19)
@@ -2789,6 +3148,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7132997323116186285, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 7132997323116186285, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 7132997323278469368, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
       propertyPath: m_Name
       value: spaceInvadersBook (19)
@@ -2811,6 +3178,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: spaceInvadersTriangle (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 3017068564540264707, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 3017068564540264707, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 3017068564540264952, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
       propertyPath: m_Size.x
       value: 1.9492276
@@ -2956,6 +3331,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7132997323116186285, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 7132997323116186285, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 7132997323278469368, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
       propertyPath: m_Name
       value: spaceInvadersBook (33)
@@ -3037,6 +3420,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7132997323116186285, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 7132997323116186285, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 7132997323278469368, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
       propertyPath: m_Name
       value: spaceInvadersBook (24)
@@ -3114,6 +3505,14 @@ PrefabInstance:
       propertyPath: m_Offset.y
       value: 0.019965053
       objectReference: {fileID: 0}
+    - target: {fileID: 3751286432772687444, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 3751286432772687444, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 3751286432772687451, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
       propertyPath: m_Name
       value: spaceInvadersPen (21)
@@ -3191,6 +3590,14 @@ PrefabInstance:
       propertyPath: m_Offset.y
       value: 0.019965053
       objectReference: {fileID: 0}
+    - target: {fileID: 3751286432772687444, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 3751286432772687444, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 3751286432772687451, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
       propertyPath: m_Name
       value: spaceInvadersPen (3)
@@ -3243,7 +3650,9 @@ MonoBehaviour:
   - {fileID: 1542409176}
   explosionPrefab: {fileID: 8732466453051779187, guid: d8b112e3efd9dc14f854552048ac5f42, type: 3}
   lives: 3
-  explosionSound: {fileID: 0}
+  explosionSource: {fileID: 1206620752}
+  explosionSound: {fileID: 8300000, guid: 9d73d6d0522b1d140a31613a0dcfdfe7, type: 3}
+  gameOverPanel: {fileID: 1503701864}
 --- !u!212 &470154586
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3371,6 +3780,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ammunitionPrefab: {fileID: 5903550961331770885, guid: 0b47714ce8bef284b86b76d6e74088b4, type: 3}
+  shootSource: {fileID: 760457379}
+  shootSound: {fileID: 8300000, guid: 21beca60b6c41884aa33ef0422ee5c18, type: 3}
 --- !u!1001 &482979595
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3442,6 +3853,14 @@ PrefabInstance:
       propertyPath: m_Offset.y
       value: 0.019965053
       objectReference: {fileID: 0}
+    - target: {fileID: 3751286432772687444, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 3751286432772687444, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 3751286432772687451, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
       propertyPath: m_Name
       value: spaceInvadersPen (37)
@@ -3524,6 +3943,14 @@ PrefabInstance:
       propertyPath: m_Offset.y
       value: 0.019965053
       objectReference: {fileID: 0}
+    - target: {fileID: 3751286432772687444, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 3751286432772687444, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 3751286432772687451, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
       propertyPath: m_Name
       value: spaceInvadersPen (6)
@@ -3610,6 +4037,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7132997323116186285, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 7132997323116186285, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 7132997323278469368, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
       propertyPath: m_Name
       value: spaceInvadersBook (36)
@@ -3627,6 +4062,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: spaceInvadersTriangle (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 3017068564540264707, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 3017068564540264707, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 3017068564540264952, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
       propertyPath: m_Size.x
       value: 1.9492276
@@ -3768,12 +4211,155 @@ PrefabInstance:
       propertyPath: m_Offset.y
       value: 0.019965053
       objectReference: {fileID: 0}
+    - target: {fileID: 3751286432772687444, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 3751286432772687444, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 3751286432772687451, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
       propertyPath: m_Name
       value: spaceInvadersPen (33)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
+--- !u!1 &517924950
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 517924951}
+  - component: {fileID: 517924953}
+  - component: {fileID: 517924952}
+  m_Layer: 5
+  m_Name: GameOverText (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &517924951
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 517924950}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1503701863}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 126, y: 23}
+  m_SizeDelta: {x: 647.341, y: 206.1527}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &517924952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 517924950}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: You Lost!
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190335
+  m_fontColor: {r: 1, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 50
+  m_fontSizeBase: 50
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 1
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: -694.79755, y: 0, z: -440.36478, w: 91.334816}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &517924953
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 517924950}
+  m_CullTransparentMesh: 1
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -3785,6 +4371,8 @@ GameObject:
   - component: {fileID: 519420032}
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
+  - component: {fileID: 519420033}
+  - component: {fileID: 519420034}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -3858,6 +4446,114 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &519420033
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: c96135a9945799847a06917b3c6d1af9, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.22
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &519420034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 872aad47051704946a6fd8372911d446, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &525714084
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3869,6 +4565,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: spaceInvadersTriangle (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 3017068564540264707, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 3017068564540264707, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 3017068564540264952, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
       propertyPath: m_Size.x
       value: 1.9492276
@@ -3955,6 +4659,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: spaceInvadersTriangle (39)
       objectReference: {fileID: 0}
+    - target: {fileID: 3017068564540264707, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 3017068564540264707, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 3017068564540264952, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
       propertyPath: m_Size.x
       value: 1.9492276
@@ -4100,6 +4812,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7132997323116186285, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 7132997323116186285, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 7132997323278469368, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
       propertyPath: m_Name
       value: spaceInvadersBook (18)
@@ -4181,6 +4901,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7132997323116186285, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 7132997323116186285, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 7132997323278469368, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
       propertyPath: m_Name
       value: spaceInvadersBook (11)
@@ -4267,6 +4995,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7132997323116186285, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 7132997323116186285, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 7132997323278469368, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
       propertyPath: m_Name
       value: spaceInvadersBook (9)
@@ -4353,6 +5089,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7132997323116186285, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 7132997323116186285, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 7132997323278469368, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
       propertyPath: m_Name
       value: spaceInvadersBook (22)
@@ -4444,6 +5188,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7132997323116186285, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 7132997323116186285, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 7132997323278469368, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
       propertyPath: m_Name
       value: spaceInvadersBook (26)
@@ -4531,6 +5283,14 @@ PrefabInstance:
       propertyPath: m_Offset.y
       value: 0.019965053
       objectReference: {fileID: 0}
+    - target: {fileID: 3751286432772687444, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 3751286432772687444, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 3751286432772687451, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
       propertyPath: m_Name
       value: spaceInvadersPen (23)
@@ -4617,6 +5377,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7132997323116186285, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 7132997323116186285, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 7132997323278469368, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
       propertyPath: m_Name
       value: spaceInvadersBook (28)
@@ -4699,6 +5467,14 @@ PrefabInstance:
       propertyPath: m_Offset.y
       value: 0.019965053
       objectReference: {fileID: 0}
+    - target: {fileID: 3751286432772687444, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 3751286432772687444, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 3751286432772687451, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
       propertyPath: m_Name
       value: spaceInvadersPen (12)
@@ -4726,6 +5502,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: spaceInvadersTriangle (36)
       objectReference: {fileID: 0}
+    - target: {fileID: 3017068564540264707, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 3017068564540264707, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 3017068564540264952, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
       propertyPath: m_Size.x
       value: 1.9492276
@@ -4872,6 +5656,14 @@ PrefabInstance:
       propertyPath: m_Offset.y
       value: 0.019965053
       objectReference: {fileID: 0}
+    - target: {fileID: 3751286432772687444, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 3751286432772687444, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 3751286432772687451, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
       propertyPath: m_Name
       value: spaceInvadersPen (10)
@@ -4953,6 +5745,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7132997323116186285, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 7132997323116186285, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 7132997323278469368, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
       propertyPath: m_Name
       value: spaceInvadersBook (34)
@@ -5030,6 +5830,14 @@ PrefabInstance:
       propertyPath: m_Offset.y
       value: 0.019965053
       objectReference: {fileID: 0}
+    - target: {fileID: 3751286432772687444, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 3751286432772687444, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 3751286432772687451, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
       propertyPath: m_Name
       value: spaceInvadersPen (25)
@@ -5111,6 +5919,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7132997323116186285, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 7132997323116186285, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 7132997323278469368, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
       propertyPath: m_Name
       value: spaceInvadersBook (13)
@@ -5157,7 +5973,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 745.8, y: 400.8}
+  m_AnchoredPosition: {x: 533.4661, y: 460.67722}
   m_SizeDelta: {x: 42.7784, y: 44.0068}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &760347219
@@ -5198,6 +6014,134 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 760347217}
   m_CullTransparentMesh: 1
+--- !u!1 &760457378
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 760457380}
+  - component: {fileID: 760457379}
+  m_Layer: 0
+  m_Name: ShootSound
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &760457379
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 760457378}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 0.31
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &760457380
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 760457378}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.0905738, y: -1.64867, z: 6.774784}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &771971439
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5209,6 +6153,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: spaceInvadersTriangle (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 3017068564540264707, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 3017068564540264707, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 3017068564540264952, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
       propertyPath: m_Size.x
       value: 1.9492276
@@ -5290,6 +6242,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: spaceInvadersTriangle (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 3017068564540264707, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 3017068564540264707, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 3017068564540264952, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
       propertyPath: m_Size.x
       value: 1.9492276
@@ -5360,6 +6320,141 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
+--- !u!1 &789077869
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 789077870}
+  - component: {fileID: 789077872}
+  - component: {fileID: 789077871}
+  m_Layer: 5
+  m_Name: GameOverText (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &789077870
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 789077869}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1503701863}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 413, y: -479}
+  m_SizeDelta: {x: 647.341, y: 206.1527}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &789077871
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 789077869}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Pixely
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 30
+  m_fontSizeBase: 30
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 1
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 342.50555, y: 0, z: -440.36478, w: 91.334816}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &789077872
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 789077869}
+  m_CullTransparentMesh: 1
 --- !u!1001 &816355701
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5431,6 +6526,14 @@ PrefabInstance:
       propertyPath: m_Offset.y
       value: 0.019965053
       objectReference: {fileID: 0}
+    - target: {fileID: 3751286432772687444, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 3751286432772687444, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 3751286432772687451, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
       propertyPath: m_Name
       value: spaceInvadersPen (38)
@@ -5448,6 +6551,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: spaceInvadersTriangle (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 3017068564540264707, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 3017068564540264707, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 3017068564540264952, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
       propertyPath: m_Size.x
       value: 1.9492276
@@ -5534,6 +6645,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: spaceInvadersTriangle (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 3017068564540264707, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 3017068564540264707, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 3017068564540264952, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
       propertyPath: m_Size.x
       value: 1.9492276
@@ -5675,6 +6794,14 @@ PrefabInstance:
       propertyPath: m_Offset.y
       value: 0.019965053
       objectReference: {fileID: 0}
+    - target: {fileID: 3751286432772687444, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 3751286432772687444, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 3751286432772687451, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
       propertyPath: m_Name
       value: spaceInvadersPen (28)
@@ -5686,6 +6813,140 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3017068564540264959, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
   m_PrefabInstance: {fileID: 220059005}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &883915058
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 883915059}
+  - component: {fileID: 883915062}
+  - component: {fileID: 883915061}
+  - component: {fileID: 883915060}
+  m_Layer: 5
+  m_Name: Button
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &883915059
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 883915058}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1216875236}
+  m_Father: {fileID: 1503701863}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 1, y: -73}
+  m_SizeDelta: {x: 704.7476, y: 105.0251}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &883915060
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 883915058}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 883915061}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1503701864}
+        m_TargetAssemblyTypeName: GameOverPanel, Assembly-CSharp
+        m_MethodName: RestartButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &883915061
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 883915058}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 0.37001553, b: 0.042452812, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &883915062
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 883915058}
+  m_CullTransparentMesh: 1
 --- !u!4 &885632256 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3017068564540264959, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
@@ -5776,6 +7037,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7132997323116186285, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 7132997323116186285, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 7132997323278469368, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
       propertyPath: m_Name
       value: spaceInvadersBook (25)
@@ -5961,6 +7230,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7132997323116186285, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 7132997323116186285, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 7132997323278469368, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
       propertyPath: m_Name
       value: spaceInvadersBook (27)
@@ -6047,6 +7324,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7132997323116186285, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 7132997323116186285, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 7132997323278469368, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
       propertyPath: m_Name
       value: spaceInvadersBook (3)
@@ -6069,6 +7354,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: spaceInvadersTriangle (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 3017068564540264707, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 3017068564540264707, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 3017068564540264952, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
       propertyPath: m_Size.x
       value: 1.9492276
@@ -6214,6 +7507,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7132997323116186285, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 7132997323116186285, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 7132997323278469368, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
       propertyPath: m_Name
       value: spaceInvadersBook (30)
@@ -6251,6 +7552,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: spaceInvadersTriangle (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 3017068564540264707, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 3017068564540264707, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 3017068564540264952, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
       propertyPath: m_Size.x
       value: 1.9492276
@@ -6401,6 +7710,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7132997323116186285, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 7132997323116186285, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 7132997323278469368, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
       propertyPath: m_Name
       value: spaceInvadersBook (10)
@@ -6483,6 +7800,14 @@ PrefabInstance:
       propertyPath: m_Offset.y
       value: 0.019965053
       objectReference: {fileID: 0}
+    - target: {fileID: 3751286432772687444, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 3751286432772687444, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 3751286432772687451, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
       propertyPath: m_Name
       value: spaceInvadersPen (26)
@@ -6525,6 +7850,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: spaceInvadersTriangle (38)
       objectReference: {fileID: 0}
+    - target: {fileID: 3017068564540264707, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 3017068564540264707, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 3017068564540264952, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
       propertyPath: m_Size.x
       value: 1.9492276
@@ -6666,6 +7999,14 @@ PrefabInstance:
       propertyPath: m_Offset.y
       value: 0.019965053
       objectReference: {fileID: 0}
+    - target: {fileID: 3751286432772687444, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 3751286432772687444, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 3751286432772687451, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
       propertyPath: m_Name
       value: spaceInvadersPen (18)
@@ -6683,6 +8024,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: spaceInvadersTriangle (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 3017068564540264707, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 3017068564540264707, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 3017068564540264952, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
       propertyPath: m_Size.x
       value: 1.9492276
@@ -6764,6 +8113,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: spaceInvadersTriangle (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 3017068564540264707, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 3017068564540264707, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 3017068564540264952, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
       propertyPath: m_Size.x
       value: 1.9492276
@@ -6925,6 +8282,14 @@ PrefabInstance:
       propertyPath: m_Offset.y
       value: 0.019965053
       objectReference: {fileID: 0}
+    - target: {fileID: 3751286432772687444, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 3751286432772687444, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 3751286432772687451, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
       propertyPath: m_Name
       value: spaceInvadersPen (16)
@@ -7006,12 +8371,283 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7132997323116186285, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 7132997323116186285, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 7132997323278469368, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
       propertyPath: m_Name
       value: spaceInvadersBook (17)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
+--- !u!1 &1206620751
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1206620753}
+  - component: {fileID: 1206620752}
+  m_Layer: 0
+  m_Name: LifeSound
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &1206620752
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1206620751}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &1206620753
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1206620751}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.0905738, y: -1.64867, z: 6.774784}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1216875235
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1216875236}
+  - component: {fileID: 1216875238}
+  - component: {fileID: 1216875237}
+  m_Layer: 5
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1216875236
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1216875235}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 883915059}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1216875237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1216875235}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: RESTART
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 70
+  m_fontSizeBase: 70
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 5
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1216875238
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1216875235}
+  m_CullTransparentMesh: 1
 --- !u!1001 &1228579392
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7023,6 +8659,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: spaceInvadersTriangle (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 3017068564540264707, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 3017068564540264707, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 3017068564540264952, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
       propertyPath: m_Size.x
       value: 1.9492276
@@ -7104,6 +8748,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: spaceInvadersTriangle (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 3017068564540264707, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 3017068564540264707, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 3017068564540264952, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
       propertyPath: m_Size.x
       value: 1.9492276
@@ -7185,6 +8837,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: spaceInvadersTriangle (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 3017068564540264707, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 3017068564540264707, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 3017068564540264952, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
       propertyPath: m_Size.x
       value: 1.9492276
@@ -7354,6 +9014,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: spaceInvadersTriangle (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 3017068564540264707, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 3017068564540264707, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 3017068564540264952, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
       propertyPath: m_Size.x
       value: 1.9492276
@@ -7495,6 +9163,14 @@ PrefabInstance:
       propertyPath: m_Offset.y
       value: 0.019965053
       objectReference: {fileID: 0}
+    - target: {fileID: 3751286432772687444, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 3751286432772687444, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 3751286432772687451, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
       propertyPath: m_Name
       value: spaceInvadersPen (36)
@@ -7576,6 +9252,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7132997323116186285, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 7132997323116186285, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 7132997323278469368, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
       propertyPath: m_Name
       value: spaceInvadersBook (32)
@@ -7653,6 +9337,14 @@ PrefabInstance:
       propertyPath: m_Offset.y
       value: 0.019965053
       objectReference: {fileID: 0}
+    - target: {fileID: 3751286432772687444, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 3751286432772687444, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 3751286432772687451, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
       propertyPath: m_Name
       value: spaceInvadersPen (22)
@@ -7824,6 +9516,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7132997323116186285, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 7132997323116186285, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 7132997323278469368, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
       propertyPath: m_Name
       value: spaceInvadersBook (38)
@@ -7851,6 +9551,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: spaceInvadersTriangle (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3017068564540264707, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 3017068564540264707, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 3017068564540264952, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
       propertyPath: m_Size.x
       value: 1.9492276
@@ -8006,12 +9714,114 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7132997323116186285, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 7132997323116186285, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 7132997323278469368, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
       propertyPath: m_Name
       value: spaceInvadersBook (31)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
+--- !u!1 &1503701862
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1503701863}
+  - component: {fileID: 1503701866}
+  - component: {fileID: 1503701865}
+  - component: {fileID: 1503701864}
+  m_Layer: 5
+  m_Name: GameOverBackground
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1503701863
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1503701862}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 369702525}
+  - {fileID: 517924951}
+  - {fileID: 789077870}
+  - {fileID: 883915059}
+  m_Father: {fileID: 1621872538}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: -4.0845947}
+  m_SizeDelta: {x: -134.3943, y: -139.79}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1503701864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1503701862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dd544a012778c1408be1335e87d6a4e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameSettings: {fileID: 519420034}
+--- !u!114 &1503701865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1503701862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.1254902, g: 0.1254902, b: 0.1254902, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1503701866
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1503701862}
+  m_CullTransparentMesh: 1
 --- !u!1001 &1522259525
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8083,6 +9893,14 @@ PrefabInstance:
       propertyPath: m_Offset.y
       value: 0.019965053
       objectReference: {fileID: 0}
+    - target: {fileID: 3751286432772687444, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 3751286432772687444, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 3751286432772687451, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
       propertyPath: m_Name
       value: spaceInvadersPen (34)
@@ -8129,7 +9947,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 776.71594, y: 400.80005}
+  m_AnchoredPosition: {x: 564.3821, y: 460.67728}
   m_SizeDelta: {x: 42.7784, y: 44.0068}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1542409176
@@ -8451,6 +10269,14 @@ PrefabInstance:
       propertyPath: m_Offset.y
       value: 0.019965053
       objectReference: {fileID: 0}
+    - target: {fileID: 3751286432772687444, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 3751286432772687444, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 3751286432772687451, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
       propertyPath: m_Name
       value: spaceInvadersPen (17)
@@ -8533,6 +10359,14 @@ PrefabInstance:
       propertyPath: m_Offset.y
       value: 0.019965053
       objectReference: {fileID: 0}
+    - target: {fileID: 3751286432772687444, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 3751286432772687444, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 3751286432772687451, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
       propertyPath: m_Name
       value: spaceInvadersPen (35)
@@ -8640,6 +10474,7 @@ RectTransform:
   - {fileID: 330842320}
   - {fileID: 1542409175}
   - {fileID: 156633938}
+  - {fileID: 1503701863}
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -8719,6 +10554,14 @@ PrefabInstance:
       propertyPath: m_Offset.y
       value: 0.019965053
       objectReference: {fileID: 0}
+    - target: {fileID: 3751286432772687444, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 3751286432772687444, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 3751286432772687451, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
       propertyPath: m_Name
       value: spaceInvadersPen (11)
@@ -8736,6 +10579,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: spaceInvadersTriangle (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 3017068564540264707, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 3017068564540264707, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 3017068564540264952, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
       propertyPath: m_Size.x
       value: 1.9492276
@@ -8817,6 +10668,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: spaceInvadersTriangle (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 3017068564540264707, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 3017068564540264707, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 3017068564540264952, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
       propertyPath: m_Size.x
       value: 1.9492276
@@ -8958,6 +10817,14 @@ PrefabInstance:
       propertyPath: m_Offset.y
       value: 0.019965053
       objectReference: {fileID: 0}
+    - target: {fileID: 3751286432772687444, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 3751286432772687444, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 3751286432772687451, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
       propertyPath: m_Name
       value: spaceInvadersPen (13)
@@ -9054,6 +10921,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7132997323116186285, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 7132997323116186285, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 7132997323278469368, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
       propertyPath: m_Name
       value: spaceInvadersBook (5)
@@ -9213,6 +11088,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7132997323116186285, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 7132997323116186285, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 7132997323278469368, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
       propertyPath: m_Name
       value: spaceInvadersBook (14)
@@ -9230,6 +11113,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: spaceInvadersTriangle (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 3017068564540264707, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 3017068564540264707, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 3017068564540264952, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
       propertyPath: m_Size.x
       value: 1.9492276
@@ -9375,6 +11266,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7132997323116186285, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 7132997323116186285, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 7132997323278469368, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
       propertyPath: m_Name
       value: spaceInvadersBook (21)
@@ -9461,6 +11360,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7132997323116186285, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 7132997323116186285, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 7132997323278469368, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
       propertyPath: m_Name
       value: spaceInvadersBook (37)
@@ -9542,6 +11449,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7132997323116186285, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 7132997323116186285, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 7132997323278469368, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
       propertyPath: m_Name
       value: spaceInvadersBook (1)
@@ -9559,6 +11474,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: spaceInvadersTriangle (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 3017068564540264707, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 3017068564540264707, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 3017068564540264952, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
       propertyPath: m_Size.x
       value: 1.9492276
@@ -9705,6 +11628,14 @@ PrefabInstance:
       propertyPath: m_Offset.y
       value: 0.019965053
       objectReference: {fileID: 0}
+    - target: {fileID: 3751286432772687444, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 3751286432772687444, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 3751286432772687451, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
       propertyPath: m_Name
       value: spaceInvadersPen (31)
@@ -9722,6 +11653,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: spaceInvadersTriangle (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 3017068564540264707, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 3017068564540264707, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 3017068564540264952, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
       propertyPath: m_Size.x
       value: 1.9492276
@@ -9808,6 +11747,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: spaceInvadersTriangle (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 3017068564540264707, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 3017068564540264707, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 3017068564540264952, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
       propertyPath: m_Size.x
       value: 1.9492276
@@ -9888,6 +11835,134 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3017068564540264959, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
   m_PrefabInstance: {fileID: 783022401}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1910263213
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1910263215}
+  - component: {fileID: 1910263214}
+  m_Layer: 0
+  m_Name: HitSound
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &1910263214
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1910263213}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &1910263215
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1910263213}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1067.7833, y: 410.259, z: -3.5036502}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1913018175
 GameObject:
   m_ObjectHideFlags: 0
@@ -10043,6 +12118,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7132997323116186285, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 7132997323116186285, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 7132997323278469368, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
       propertyPath: m_Name
       value: spaceInvadersBook (4)
@@ -10129,6 +12212,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7132997323116186285, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 7132997323116186285, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 7132997323278469368, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
       propertyPath: m_Name
       value: spaceInvadersBook (20)
@@ -10156,6 +12247,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: spaceInvadersTriangle (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 3017068564540264707, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 3017068564540264707, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 3017068564540264952, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
       propertyPath: m_Size.x
       value: 1.9492276
@@ -10360,6 +12459,14 @@ PrefabInstance:
       propertyPath: m_Offset.y
       value: 0.019965053
       objectReference: {fileID: 0}
+    - target: {fileID: 3751286432772687444, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 3751286432772687444, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 3751286432772687451, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
       propertyPath: m_Name
       value: spaceInvadersPen (4)
@@ -10397,6 +12504,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: spaceInvadersTriangle (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 3017068564540264707, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 3017068564540264707, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 3017068564540264952, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
       propertyPath: m_Size.x
       value: 1.9492276
@@ -10538,6 +12653,14 @@ PrefabInstance:
       propertyPath: m_Offset.y
       value: 0.019965053
       objectReference: {fileID: 0}
+    - target: {fileID: 3751286432772687444, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 3751286432772687444, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 3751286432772687451, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
       propertyPath: m_Name
       value: spaceInvadersPen (9)
@@ -10619,6 +12742,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7132997323116186285, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 7132997323116186285, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 7132997323278469368, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
       propertyPath: m_Name
       value: spaceInvadersBook (12)
@@ -10701,6 +12832,14 @@ PrefabInstance:
       propertyPath: m_Offset.y
       value: 0.019965053
       objectReference: {fileID: 0}
+    - target: {fileID: 3751286432772687444, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 3751286432772687444, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 3751286432772687451, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
       propertyPath: m_Name
       value: spaceInvadersPen (24)
@@ -10787,6 +12926,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7132997323116186285, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 7132997323116186285, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 7132997323278469368, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
       propertyPath: m_Name
       value: spaceInvadersBook (8)
@@ -10868,6 +13015,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7132997323116186285, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 7132997323116186285, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 7132997323278469368, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
       propertyPath: m_Name
       value: spaceInvadersBook (35)
@@ -10885,6 +13040,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: spaceInvadersTriangle (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 3017068564540264707, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 3017068564540264707, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 3017068564540264952, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
       propertyPath: m_Size.x
       value: 1.9492276
@@ -11046,6 +13209,14 @@ PrefabInstance:
       propertyPath: m_Offset.y
       value: 0.019965053
       objectReference: {fileID: 0}
+    - target: {fileID: 3751286432772687444, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 3751286432772687444, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 3751286432772687451, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
       propertyPath: m_Name
       value: spaceInvadersPen (14)
@@ -11063,6 +13234,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: spaceInvadersTriangle (37)
       objectReference: {fileID: 0}
+    - target: {fileID: 3017068564540264707, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 3017068564540264707, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 3017068564540264952, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
       propertyPath: m_Size.x
       value: 1.9492276
@@ -11144,6 +13323,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: spaceInvadersTriangle (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 3017068564540264707, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 3017068564540264707, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 3017068564540264952, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
       propertyPath: m_Size.x
       value: 1.9492276
@@ -11285,6 +13472,14 @@ PrefabInstance:
       propertyPath: m_Offset.y
       value: 0.019965053
       objectReference: {fileID: 0}
+    - target: {fileID: 3751286432772687444, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 3751286432772687444, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 3751286432772687451, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
       propertyPath: m_Name
       value: spaceInvadersPen (5)
@@ -11312,6 +13507,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: spaceInvadersTriangle (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 3017068564540264707, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 3017068564540264707, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 3017068564540264952, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
       propertyPath: m_Size.x
       value: 1.9492276
@@ -11403,6 +13606,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: spaceInvadersTriangle
       objectReference: {fileID: 0}
+    - target: {fileID: 3017068564540264707, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 3017068564540264707, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 3017068564540264952, guid: e4dc0ca0d4b9e5a449039676c56c74e1, type: 3}
       propertyPath: m_Size.x
       value: 1.9492276
@@ -11544,6 +13755,14 @@ PrefabInstance:
       propertyPath: m_Offset.y
       value: 0.019965053
       objectReference: {fileID: 0}
+    - target: {fileID: 3751286432772687444, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 3751286432772687444, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 3751286432772687451, guid: 7b2961d1a7b40974e85cbfb0299c7d30, type: 3}
       propertyPath: m_Name
       value: spaceInvadersPen
@@ -11625,6 +13844,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7132997323116186285, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f9c5ff80d1dbe0489189fe2e1071ee7, type: 3}
+    - target: {fileID: 7132997323116186285, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
+      propertyPath: destroySource
+      value: 
+      objectReference: {fileID: 1910263214}
     - target: {fileID: 7132997323278469368, guid: cf9418f818105bc4fa1bd0b752084437, type: 3}
       propertyPath: m_Name
       value: spaceInvadersBook
