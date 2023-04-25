@@ -423,7 +423,6 @@ GameObject:
   - component: {fileID: 470154588}
   - component: {fileID: 470154585}
   - component: {fileID: 470154590}
-  - component: {fileID: 470154591}
   m_Layer: 0
   m_Name: spaceInvadersPlane
   m_TagString: Plane
@@ -445,6 +444,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 10
   horizontalInput: 0
+  livesUI:
+  - {fileID: 760347219}
+  - {fileID: 330842321}
+  - {fileID: 1542409176}
+  explosionPrefab: {fileID: 8732466453051779187, guid: d8b112e3efd9dc14f854552048ac5f42, type: 3}
+  lives: 3
 --- !u!212 &470154586
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -572,24 +577,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ammunitionPrefab: {fileID: 5903550961331770885, guid: 881eb69f479c6824fb1b02d6597dfc42, type: 3}
---- !u!114 &470154591
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 470154584}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: caf0850a4900a5245ae6c616db368211, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  lives: 3
-  livesUI:
-  - {fileID: 760347219}
-  - {fileID: 330842321}
-  - {fileID: 1542409176}
-  explosionPrefab: {fileID: 8732466453051779187, guid: d8b112e3efd9dc14f854552048ac5f42, type: 3}
 --- !u!4 &491685647 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3298562273368610694, guid: 9758f79ec34040a44a30d69ebee7a723, type: 3}
@@ -1384,6 +1371,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1546663759}
+  - component: {fileID: 1546663760}
+  - component: {fileID: 1546663761}
   m_Layer: 0
   m_Name: SchoolMaterial
   m_TagString: Untagged
@@ -1466,6 +1455,53 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &1546663760
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1546663758}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
+--- !u!61 &1546663761
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1546663758}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!4 &1581452551 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8141656331646911088, guid: 3d3f9c4beffcfb74193e5ed06dab2b5e, type: 3}
@@ -3599,6 +3635,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1546663759}
     m_Modifications:
+    - target: {fileID: 3967458637968841260, guid: b33c2609b590c54418957e4ff722a9d1, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3967458637968841261, guid: b33c2609b590c54418957e4ff722a9d1, type: 3}
       propertyPath: explosionPrefab
       value: 
@@ -5058,6 +5098,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7755898668959391438, guid: a378633ec90ad604eb72494986a6242a, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7755898668959391439, guid: a378633ec90ad604eb72494986a6242a, type: 3}
       propertyPath: explosionPrefab
       value: 
@@ -5362,6 +5406,10 @@ PrefabInstance:
     - target: {fileID: 4011522583808864779, guid: d5000e005a9fb6a46865e61518759ac6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8839379056793349633, guid: d5000e005a9fb6a46865e61518759ac6, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8839379056793349662, guid: d5000e005a9fb6a46865e61518759ac6, type: 3}
       propertyPath: explosionPrefab

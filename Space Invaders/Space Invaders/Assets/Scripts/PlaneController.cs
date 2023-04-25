@@ -45,6 +45,23 @@ public class PlaneController : MonoBehaviour
                 livesUI[i].enabled = false;
             }
         }
+
+        // Check for collision with Limit object left and right and block it to go further
+        if(other.gameObject.tag == "Limit") {
+            //Put the plane on the center of the screen
+            transform.position = new Vector2(-3, transform.position.y);
+            // create a new explosion
+            Instantiate(explosionPrefab, transform.position, Quaternion.identity);
+            lives -= 1;
+            for (int i = 0; i < livesUI.Length; i++){
+                if(i < lives) {
+                    livesUI[i].enabled = true;
+                } else {
+                    livesUI[i].enabled = false;
+                }
+            }
+        }
+        
         // if the lives are 0 or less, destroy the plane
         if(lives <= 0) {
             Destroy(gameObject);
