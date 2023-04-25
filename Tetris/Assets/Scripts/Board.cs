@@ -50,6 +50,10 @@ public class Board : MonoBehaviour
 
     private void Start()
     {
+        savedPiece.Initialize(this, holdPosition, tetrominos[0]);
+        Set(savedPiece);
+        Clear(savedPiece);
+        
         SetNextPiece();
         SpawnPiece();
     }
@@ -114,16 +118,21 @@ public class Board : MonoBehaviour
 
     private void Update()
     {
+        UpdateUI();
+        SetLevel();
         if (Input.GetKeyDown(KeyCode.LeftShift) || Input.GetKeyDown(KeyCode.RightShift)) {
             SwapPiece();
         }
-        UpdateUI();
     }
 
 
     public void GameOver(){
         this.tilemap.ClearAllTiles();
         // todo
+        level = 1;
+        clearedLines = 0;
+        currentScore = 0;
+        Start();
     }
 
     public void Set(Piece piece)
@@ -167,19 +176,19 @@ public class Board : MonoBehaviour
     public void Points(int nbrOfRows){
         if(nbrOfRows>0){
             if(nbrOfRows == 1){
-                currentScore += scoreOneLine;
+                currentScore += scoreOneLine*level;
             } else if (nbrOfRows == 2){
-                currentScore += scoreTwoLine;
+                currentScore += scoreTwoLine*level;
             } else if (nbrOfRows == 3){
-                currentScore += scoreThreeLine;
+                currentScore += scoreThreeLine*level;
             } else if (nbrOfRows == 4){
-                currentScore += scoreFourLine;
+                currentScore += scoreFourLine*level;
             }
         }
     }
 
     public void SetLevel(){
-        if(clearedLines%10 == 0 && clearedLines != 0){
+        if(clearedLines%10 == 0 && clearedLines != 0 && level < 11){
             level++;
             clearedLines = 0;
         }
@@ -191,6 +200,7 @@ public class Board : MonoBehaviour
     public int GetLevel(){
         return level;
     }
+
     public void UpdateUI(){
         scoreText.text = currentScore.ToString();
         levelText.text = GetLevel().ToString();
