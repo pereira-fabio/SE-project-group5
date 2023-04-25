@@ -67,9 +67,43 @@ public class Piece : MonoBehaviour
         this.board.Set(this);
     }
     public void UpdateSpeed(){
-        if(board.clearedLines%10 == 0 && board.clearedLines!=0){
-            SetStepDelay(stepDelay-0.1f);
+        switch(board.level) 
+        {
+        case 1:
+            SetStepDelay(1f);
+            break;
+        case 2:
+            SetStepDelay(0.9f);
+            break;
+        case 3:
+            SetStepDelay(0.8f);
+            break;
+        case 4:
+            SetStepDelay(0.7f);
+            break;
+        case 5:
+            SetStepDelay(0.6f);
+            break;
+        case 6:
+            SetStepDelay(0.5f);
+            break;
+        case 7:
+            SetStepDelay(0.4f);
+            break;
+        case 8:
+            SetStepDelay(0.3f);
+            break;
+        case 9:
+            SetStepDelay(0.2f);
+            break;
+        case 10:
+            SetStepDelay(0.1f);
+            break;
+        default:
+            // code block
+            break;
         }
+
     }
 
     public void Step(){

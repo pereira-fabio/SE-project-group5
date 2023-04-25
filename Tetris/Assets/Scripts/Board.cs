@@ -179,8 +179,13 @@ public class Board : MonoBehaviour
     }
 
     public void SetLevel(){
-        if(clearedLines%10 == 0){
+        if(clearedLines%10 == 0 && clearedLines != 0){
             level++;
+            clearedLines = 0;
+        }
+        if(level == 11){
+            level = 10;
+            clearedLines = 1;
         }
     }
     public int GetLevel(){
