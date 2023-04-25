@@ -7,6 +7,10 @@ public class SchoolMaterialMovement : MonoBehaviour
 {
     // speed of the object
     public float speed = 2f;
+    //play a sound when the object is destroyed
+    public AudioSource destroySource;
+    //Add a sound to the object
+    public AudioClip destroySound;
     
     // Start is called before the first frame update
     void Start()
@@ -35,6 +39,13 @@ public class SchoolMaterialMovement : MonoBehaviour
         // Check for collision with "TopDownLimit" tag and delete the object
         if (other.gameObject.tag == "TopDownLimit") {
             Destroy(gameObject);
+        }
+
+        //Check if there's a collision with "ammunition" tag and play sound
+        if(other.gameObject.tag == "Ammunition") {
+            // play the explosion sound
+            destroySource.clip = destroySound;
+            destroySource.Play();
         }
     }
 }

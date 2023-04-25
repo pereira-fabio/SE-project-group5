@@ -6,7 +6,7 @@ public class Ammunition : MonoBehaviour
 {
     public float speed;
     public GameObject explosionPrefab;
-    // Start is called before the first frame update
+
     void Start()
     {
         

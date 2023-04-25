@@ -12,6 +12,9 @@ public class PlaneController : MonoBehaviour
     public Image[] livesUI;
     public GameObject explosionPrefab;
     public int lives = 3;
+    public AudioSource explosionSource;
+    //Add an explosion sound source
+    public AudioClip explosionSound;
 
     // Start is called before the first frame update
     void Start()
@@ -33,6 +36,9 @@ public class PlaneController : MonoBehaviour
         if(other.gameObject.tag == "Enemy") {
             // create a new explosion
             Instantiate(explosionPrefab, transform.position, Quaternion.identity);
+            // play the explosion sound
+            explosionSource.clip = explosionSound;
+            explosionSource.Play();
             // if it does, destroy both objects
             Destroy(other.gameObject);
             lives -= 1;
@@ -52,6 +58,10 @@ public class PlaneController : MonoBehaviour
             transform.position = new Vector2(-3, transform.position.y);
             // create a new explosion
             Instantiate(explosionPrefab, transform.position, Quaternion.identity);
+            // play the explosion sound
+            explosionSource.clip = explosionSound;
+            explosionSource.Play();
+            // Reduce 1 life
             lives -= 1;
             for (int i = 0; i < livesUI.Length; i++){
                 if(i < lives) {
