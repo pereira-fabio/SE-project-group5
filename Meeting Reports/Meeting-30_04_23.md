@@ -1,13 +1,13 @@
 # Dividing tasks for the second sprint
-### Person 1
+### Person 1 (Diogo)
 - Creating a map for each of the levels with at least 3 rooms that can be enetered on each floor
 - Adding a character that can move across the map
 - Creating NPC's that player can talk with
-### Person 2
+### Person 2 (Piotr)
 - Creating a main menu
 - Combining minigames into one project
 - Creating settings
-### Person 3
+### Person 3 (Fabio)
 - Creating a simple combat system
 - Point system and scoreboard
 - Loading and saving the game
