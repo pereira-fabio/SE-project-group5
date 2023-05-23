@@ -10,6 +10,9 @@ TagManager:
   - Plane
   - Ammunition
   - Bomb
+  - ResumeButton
+  - HomeButton
+  - PauseMenu
   layers:
   - Default
   - TransparentFX
