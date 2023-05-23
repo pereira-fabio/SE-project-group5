@@ -73,6 +73,21 @@ public class PlaneController : MonoBehaviour
                 }
             }
         }
+
+        // Check if plane collides with bomb
+        if(other.gameObject.tag == "Bomb") {
+            lives -= 1;
+            // play the explosion sound
+            explosionSource.clip = explosionSound;
+            explosionSource.Play();
+            for (int i = 0; i < livesUI.Length; i++){
+                if(i < lives) {
+                    livesUI[i].enabled = true;
+                } else {
+                    livesUI[i].enabled = false;
+                }
+            }
+        }
         
         // if the lives are 0 or less, destroy the plane
         if(lives <= 0) {
