@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine;
 using UnityEngine.UI;
 
 public class PlaneController : MonoBehaviour
@@ -63,18 +64,6 @@ public class PlaneController : MonoBehaviour
             explosionSource.clip = explosionSound;
             explosionSource.Play();
             // Reduce 1 life
-            lives -= 1;
-            for (int i = 0; i < livesUI.Length; i++){
-                if(i < lives) {
-                    livesUI[i].enabled = true;
-                } else {
-                    livesUI[i].enabled = false;
-                }
-            }
-        }
-
-        // Check if plane collides with bomb
-        if(other.gameObject.tag == "Bomb") {
             lives -= 1;
             for (int i = 0; i < livesUI.Length; i++){
                 if(i < lives) {

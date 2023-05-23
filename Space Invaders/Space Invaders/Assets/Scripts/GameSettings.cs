@@ -10,7 +10,7 @@ public class GameSettings : MonoBehaviour
     //Create settings to restart when clicking on Button
     public void LoadGame(){
         //restart the game
-        SceneManager.LoadScene("GameLevel");
+        SceneManager.LoadScene("SampleScene");
         Time.timeScale = 1;
     }
 }
