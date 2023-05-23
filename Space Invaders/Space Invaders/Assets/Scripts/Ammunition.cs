@@ -6,7 +6,7 @@ public class Ammunition : MonoBehaviour
 {
     public float speed;
     public GameObject explosionPrefab;
-    // Start is called before the first frame update
+
     void Start()
     {
         
@@ -30,7 +30,7 @@ public class Ammunition : MonoBehaviour
         }
 
         // check if the object that collided with this object has the tag "Limit"
-        if(other.gameObject.tag == "Limit") {
+        if(other.gameObject.tag == "TopDownLimit") {
             // if it does, destroy this object
             Destroy(gameObject);
         }
