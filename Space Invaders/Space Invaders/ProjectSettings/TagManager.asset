@@ -9,6 +9,7 @@ TagManager:
   - TopDownLimit
   - Plane
   - Ammunition
+  - Bomb
   layers:
   - Default
   - TransparentFX
