@@ -1892,6 +1892,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7c68c036e68ff24ba1a6a1f152087ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tile: {fileID: 11400000, guid: 295ce7b4f31e02c44a0aebda4b1a0ce2, type: 2}
+  mainBoard: {fileID: 1910424435}
+  trackingPiece: {fileID: 1910424434}
 --- !u!1 &1764912773
 GameObject:
   m_ObjectHideFlags: 0

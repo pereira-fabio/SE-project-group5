@@ -1,6 +1,6 @@
 using UnityEngine;
 using UnityEngine.Tilemaps;
-public class Ghost : MonoBehaviour
+public class GhostPiece : MonoBehaviour
 {
     public Tile tile;
     public Board mainBoard; 
