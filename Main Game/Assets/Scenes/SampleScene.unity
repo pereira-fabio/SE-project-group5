@@ -4729,7 +4729,7 @@ GameObject:
   - component: {fileID: 935288470}
   - component: {fileID: 935288474}
   - component: {fileID: 935288473}
-  - component: {fileID: 935288472}
+  - component: {fileID: 935288475}
   m_Layer: 9
   m_Name: PC_4
   m_TagString: Untagged
@@ -4804,18 +4804,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &935288472
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 935288469}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b145e35a29c084185805fb74edf8ad3d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!61 &935288473
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4863,6 +4851,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &935288475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 935288469}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43b7734147ea40b479b1b54bc6d557e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &985983397
 GameObject:
   m_ObjectHideFlags: 0
