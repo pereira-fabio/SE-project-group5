@@ -10,6 +10,10 @@ public class Pause : MonoBehaviour
     //Get plane object
     public GameObject plane;
 
+    //Set two Buttons for mute and unmute
+    public GameObject muteImage;
+    public GameObject unmuteImage;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -58,5 +62,25 @@ public class Pause : MonoBehaviour
         isPaused = false;
         // load the main menu scene
         SceneManager.LoadScene(4);
+    }
+
+    //Create a function to disable all the sounds
+    public void MuteSound(){
+        //Disable all the sounds
+        AudioListener.volume = 0;
+        //Disable the mute button
+        muteImage.SetActive(false);
+        //Enable the unmute button
+        unmuteImage.SetActive(true);
+    }
+
+    //Create a function to enable all the sounds
+    public void UnmuteSound(){
+        //Enable all the sounds
+        AudioListener.volume = 1;
+        //Enable the mute button
+        muteImage.SetActive(true);
+        //Disable the unmute button
+        unmuteImage.SetActive(false);
     }
 }
