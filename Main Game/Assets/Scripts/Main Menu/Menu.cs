@@ -5,6 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class Menu : MonoBehaviour
 {
+    //Set two Buttons for mute and unmute
+    public GameObject muteImage;
+    public GameObject unmuteImage;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -31,7 +35,21 @@ public class Menu : MonoBehaviour
 
     //Create a function to disable all the sounds
     public void MuteSound(){
-        //Mute all the sounds
-        AudioListener.pause = !AudioListener.pause;
+        //Disable all the sounds
+        AudioListener.volume = 0;
+        //Disable the mute button
+        muteImage.SetActive(false);
+        //Enable the unmute button
+        unmuteImage.SetActive(true);
+    }
+
+    //Create a function to enable all the sounds
+    public void UnmuteSound(){
+        //Enable all the sounds
+        AudioListener.volume = 1;
+        //Enable the mute button
+        muteImage.SetActive(true);
+        //Disable the unmute button
+        unmuteImage.SetActive(false);
     }
 }
