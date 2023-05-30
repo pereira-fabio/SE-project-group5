@@ -4819,7 +4819,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialog:
-    lines: []
+    lines:
+    - Accurate answers earn points in this rewarding question-based challenge.
 --- !u!61 &532400972
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6244,7 +6245,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialog:
-    lines: []
+    lines:
+    - Accurate answers earn points in this rewarding question-based challenge.
 --- !u!61 &1535131077
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8029,7 +8031,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialog:
-    lines: []
+    lines:
+    - Accurate answers earn points in this rewarding question-based challenge.
 --- !u!61 &1901854264
 BoxCollider2D:
   m_ObjectHideFlags: 0
