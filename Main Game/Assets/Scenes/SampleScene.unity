@@ -5784,7 +5784,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialog:
     lines:
-    - Get ready for Pac-Man! Use arrow keys to navigate.s
+    - Get ready for Pac-Man! Use arrow keys to navigate.
 --- !u!1 &1055949906
 GameObject:
   m_ObjectHideFlags: 0
@@ -6001,24 +6001,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialog:
     lines:
-    - "Welcome, young student, to the immersive world of academic challenges! I am
-      your guide, Professor Volker M\xFCller, an esteemed NPC dedicated to guiding
-      ambitious minds like yours through this educational adventure."
-    - "Within these virtual walls, you will encounter a series of thought-provoking
-      questions that will test your knowledge and wit. To progress further, you must
-      navigate your way through different computers, each containing a different
-      set of questions. Successfully answering these queries will earn you valuable
-      ECTS points\u2014a currency that signifies your academic achievements."
-    - But wait, there's more! To ensure your journey is engaging and diverse, we
-      have incorporated three exciting minigames that you must conquer. These games
-      serve as milestones on your path to success. Along the way, you'll discover
-      the power of strategy, dexterity, and problem-solving, all essential skills
-      for a well-rounded scholar.
-    - "So, my young prot\xE9g\xE9, prepare to embark on this extraordinary quest
-      of knowledge and adventure. Strengthen your intellect, hone your skills, and
-      unravel the mysteries hidden within these virtual walls. Remember, every triumph
-      brings you one step closer to unlocking the doors of achievement."
-    - Are you ready? The challenges await, and your destiny as an academic hero beckons.
+    - Explore a wide variety of exciting computer games to play!
+    - Pause the game by pressing Esc key.
 --- !u!1 &1456509002
 GameObject:
   m_ObjectHideFlags: 0

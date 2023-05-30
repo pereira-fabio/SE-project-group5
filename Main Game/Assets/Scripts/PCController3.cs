@@ -11,7 +11,7 @@ public class PCController3 : MonoBehaviour, Interactable
         Debug.Log("Interacting with PC");
         StartDialog();
 
-        Invoke("LoadScene", 3f);
+        Invoke("LoadScene", 5f);
     }
 
     public void StartDialog(){
