@@ -4309,6 +4309,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerController: {fileID: 1456509003}
+  ectsText: {fileID: 743878845}
 --- !u!4 &525411422
 Transform:
   m_ObjectHideFlags: 0
