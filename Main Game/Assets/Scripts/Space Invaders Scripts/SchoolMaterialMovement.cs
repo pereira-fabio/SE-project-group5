@@ -67,13 +67,13 @@ public class SchoolMaterialMovement : MonoBehaviour
 
     //Create a win method when the player wins
     public void win() {
-        StateValueConrtoller.stateValue +=30;
         VictoryPanel.SetActive(true);
         BombDrop.SetActive(false);
     }
 
     //Create method to continue to the next level
     public void Continue() {
+        StateValueConrtoller.stateValue +=30;
         //Load the next scene
         SceneManager.LoadScene(0);
         
