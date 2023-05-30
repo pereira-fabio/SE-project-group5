@@ -16,6 +16,8 @@ public class SchoolMaterialMovement : MonoBehaviour
     public GameObject VictoryPanel;
     //Set GameObject for SchoolMaterial
     public GameObject SchoolMaterial;
+
+    public GameObject BombDrop;
     
     // Start is called before the first frame update
     void Start()
@@ -66,11 +68,13 @@ public class SchoolMaterialMovement : MonoBehaviour
     //Create a win method when the player wins
     public void win() {
         VictoryPanel.SetActive(true);
+        BombDrop.SetActive(false);
     }
 
     //Create method to continue to the next level
     public void Continue() {
         //Load the next scene
         SceneManager.LoadScene(0);
+        
     }
 }
