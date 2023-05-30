@@ -1,6 +1,6 @@
 ## SE-project-group5
 [Pixely](#Pixely)
-
+[Pkay Game](#Play)
 
 # Pixely 
 
@@ -21,3 +21,8 @@ The game offers a variety of retro games, each with its own unique mechanics and
 - **Strategic Gameplay:** Each retro game presents its own set of challenges and requires different strategies for success. Sharpen your skills, learn the patterns, and devise clever tactics to achieve high scores and earn more ETCs points.    
 
 Enjoy the nostalgic journey through retro gaming as you strive to escape the room by acquiring ETCs points and unlocking the exit door. Good luck!
+
+# Play
+1. Download the zip folder from github.
+2. Unzip the folder
+3. Go to Windows and run the .exe file. 
