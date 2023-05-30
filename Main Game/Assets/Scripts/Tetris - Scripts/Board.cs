@@ -199,7 +199,7 @@ public class Board : MonoBehaviour
     }
 
     public void Points(int nbrOfRows){
-        if(currentScore >= 3000){
+        if(currentScore >= 1500){
             Victory();
         }
 
