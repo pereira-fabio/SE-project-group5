@@ -66,13 +66,10 @@ public class SchoolMaterialMovement : MonoBehaviour
     //Create a win method when the player wins
     public void win() {
         VictoryPanel.SetActive(true);
-        Time.timeScale = 0;
     }
 
     //Create method to continue to the next level
     public void Continue() {
-        //Set the TimeScale to 1
-        Time.timeScale = 1;
         //Load the next scene
         SceneManager.LoadScene(0);
     }
