@@ -1,6 +1,7 @@
 ## SE-project-group5
 [Pixely](#Pixely)
-[Pkay Game](#Play)
+
+[Play Game](#Play)
 
 # Pixely 
 
