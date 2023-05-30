@@ -1,6 +1,7 @@
 
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -8,6 +9,7 @@ public class GameManager : MonoBehaviour
     
     public Pacman pacman;
     public Transform pellets;
+    public GameObject VictoryPanel;
     public int score {get; private set;}
     public int lives {get; private set;}
 
@@ -92,8 +94,13 @@ public class GameManager : MonoBehaviour
             this.pacman.gameObject.SetActive(false);
             StateValueConrtoller.stateValue +=30;
             //Add new panel to return to the main scene
+            VictoryPanel.SetActive(true);
         }
 
+    }
+
+    public void LoadContinue(){
+        SceneManager.LoadScene(0);
     }
 
     public void PowerPelletEaten(PowerPellet pellet){
