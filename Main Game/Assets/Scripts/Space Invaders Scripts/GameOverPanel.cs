@@ -11,8 +11,8 @@ public class GameOverPanel : MonoBehaviour
     }
 
     public void RestartButton(){
-        gameObject.SetActive(false);
-        gameSettings.LoadGame();
+        Time.timeScale = 1;
+        SceneManager.LoadScene(0);
     }
     
 }

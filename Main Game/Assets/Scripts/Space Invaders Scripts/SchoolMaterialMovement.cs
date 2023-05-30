@@ -67,6 +67,7 @@ public class SchoolMaterialMovement : MonoBehaviour
 
     //Create a win method when the player wins
     public void win() {
+        StateValueConrtoller.stateValue +=30;
         VictoryPanel.SetActive(true);
         BombDrop.SetActive(false);
     }
