@@ -5,8 +5,20 @@ using UnityEngine.SceneManagement;
 
 public class PCController1 : MonoBehaviour, Interactable
 {
+    [SerializeField] Dialog dialog;
+
     public void Interact(){
         Debug.Log("Interacting with PC");
-        SceneManager.LoadScene(2);
+        StartDialog();
+        
+        Invoke("LoadScene", 3f);
+    }
+
+    public void StartDialog(){
+        StartCoroutine(DialogManager.Instance.ShowDialog(dialog));
+    }
+
+    public void LoadScene(){
+        SceneManager.LoadScene(2); //Tetris
     }
 }
