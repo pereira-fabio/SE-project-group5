@@ -20,4 +20,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: 51a029d7dac2fc342b89e06228dc2660
+  - enabled: 1
+    path: Assets/Scenes/Pacman.unity
+    guid: a5723c00755e8443291374792ea367c9
+  - enabled: 1
+    path: Assets/Scenes/Final Boss.unity
+    guid: 25d68896302b6a545877353bcd86889c
   m_configObjects: {}

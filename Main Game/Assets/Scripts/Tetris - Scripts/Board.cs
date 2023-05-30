@@ -150,6 +150,7 @@ public class Board : MonoBehaviour
     }
 
     public void Victory(){
+        StateValueConrtoller.stateValue +=30;
         gameOver = true;
         GoPanel.SetActive(false);
         TetrisPanel.SetActive(false);

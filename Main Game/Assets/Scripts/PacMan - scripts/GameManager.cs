@@ -27,7 +27,7 @@ public class GameManager : MonoBehaviour
 
     private void NewGame (){
         SetScore(0);
-        SetLives(3);
+        SetLives(100);
         NewRound();
 
     }
@@ -90,7 +90,8 @@ public class GameManager : MonoBehaviour
 
         if(!HasRemainingPellets()){
             this.pacman.gameObject.SetActive(false);
-            Invoke(nameof(NewRound), 3.0f);
+            StateValueConrtoller.stateValue +=30;
+            //Add new panel to return to the main scene
         }
 
     }

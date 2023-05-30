@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class DoorController : MonoBehaviour, Interactable
 {
@@ -8,6 +9,10 @@ public class DoorController : MonoBehaviour, Interactable
 
     public void Interact(){
         // Debug.Log("Interacting with Door");
-        StartCoroutine(DialogManager.Instance.ShowDialog(dialog));
+        if(StateValueConrtoller.stateValue >= 100){
+           SceneManager.LoadScene(6);
+        }else{
+            StartCoroutine(DialogManager.Instance.ShowDialog(dialog));
+        }
     }
 }
