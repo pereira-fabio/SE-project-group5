@@ -150,6 +150,7 @@ public class Board : MonoBehaviour
     }
 
     public void Victory(){
+        StateValueConrtoller.stateValue +=30;
         gameOver = true;
         GoPanel.SetActive(false);
         TetrisPanel.SetActive(false);
@@ -198,7 +199,7 @@ public class Board : MonoBehaviour
     }
 
     public void Points(int nbrOfRows){
-        if(currentScore >= 3000){
+        if(currentScore >= 100){
             Victory();
         }
 
