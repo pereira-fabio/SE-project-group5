@@ -24,7 +24,7 @@ public class Menu : MonoBehaviour
     //Create a function to load the game scene
     public void PlayGame(){
         //Load the game scene
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(4);
     }
 
     //Create a function to stop the game

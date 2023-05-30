@@ -112,6 +112,6 @@ public class Fight : MonoBehaviour
     public void MainMenu()
     {
         //Load Main Menu scene
-        UnityEngine.SceneManagement.SceneManager.LoadScene(4);
+        UnityEngine.SceneManagement.SceneManager.LoadScene(0);
     }
 }

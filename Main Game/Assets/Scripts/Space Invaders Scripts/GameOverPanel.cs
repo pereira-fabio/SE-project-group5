@@ -12,7 +12,7 @@ public class GameOverPanel : MonoBehaviour
 
     public void RestartButton(){
         Time.timeScale = 1;
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(4);
     }
     
 }

@@ -55,7 +55,7 @@ public class PausePacman : MonoBehaviour
         // set the isPaused variable to false
         isPaused = false;
         // load the main menu scene
-        SceneManager.LoadScene(4);
+        SceneManager.LoadScene(0);
     }
 
     //Create a function to disable all the sounds

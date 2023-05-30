@@ -75,7 +75,7 @@ public class SchoolMaterialMovement : MonoBehaviour
     public void Continue() {
         StateValueConrtoller.stateValue +=30;
         //Load the next scene
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(4);
         
     }
 }

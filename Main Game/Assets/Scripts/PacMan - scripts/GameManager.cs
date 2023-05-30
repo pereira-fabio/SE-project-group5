@@ -100,7 +100,7 @@ public class GameManager : MonoBehaviour
     }
 
     public void LoadContinue(){
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(4);
     }
 
     public void PowerPelletEaten(PowerPellet pellet){
