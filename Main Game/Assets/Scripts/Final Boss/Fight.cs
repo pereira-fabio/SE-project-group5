@@ -17,6 +17,8 @@ public class Fight : MonoBehaviour
     public Button healthButton;
     //Get variable for damage button
     public Button damageButton;
+    //Create variable for Panel
+    public GameObject VictoryPanel;
 
     public bool firstState = false;
     public bool secondState = false;
@@ -67,14 +69,12 @@ public class Fight : MonoBehaviour
         if (health <= 0)
         {
             health = 0;
-            //Stop
-            Time.timeScale = 0;
         }
         //Check if enemy health is less than 0 or equal to 0, if so, stop the game.
         if (enemyHealthBarUI.value <= 0)
         {
-            //Stop
-            Time.timeScale = 0;
+            //Make the Victory Panel appear
+            VictoryPanel.SetActive(true);
         }
         //Give every 5 seconds a random damage between 10 and 20 to the player
         if (Time.time % 5 == 0)
@@ -106,5 +106,12 @@ public class Fight : MonoBehaviour
     public int getEnemyHealth()
     {
         return (int)enemyHealthBarUI.value;
+    }
+
+    //Create method for button to go to Main Menu
+    public void MainMenu()
+    {
+        //Load Main Menu scene
+        UnityEngine.SceneManagement.SceneManager.LoadScene(4);
     }
 }
