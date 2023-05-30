@@ -62,6 +62,7 @@ public class PausePacman : MonoBehaviour
     public void MuteSound(){
         //Disable all the sounds
         AudioListener.volume = 0;
+        StateValueConrtoller.mute = 0;
         //Disable the mute button
         muteImage.SetActive(false);
         //Enable the unmute button
@@ -72,6 +73,7 @@ public class PausePacman : MonoBehaviour
     public void UnmuteSound(){
         //Enable all the sounds
         AudioListener.volume = 1;
+        StateValueConrtoller.mute = 1;
         //Enable the mute button
         muteImage.SetActive(true);
         //Disable the unmute button

@@ -5,5 +5,5 @@ using UnityEngine;
 public class StateValueConrtoller : MonoBehaviour
 {
     public static int stateValue;
-    public static bool mute;
+    public static int mute;
 }
