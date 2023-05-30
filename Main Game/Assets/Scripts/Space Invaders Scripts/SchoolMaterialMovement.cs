@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class SchoolMaterialMovement : MonoBehaviour
 {
@@ -11,6 +12,12 @@ public class SchoolMaterialMovement : MonoBehaviour
     public AudioSource destroySource;
     //Add a sound to the object
     public AudioClip destroySound;
+    //Create a variable for the score
+    public int score = 0;
+    //Create variable for VicotryPanel
+    public GameObject VictoryPanel;
+    //Set GameObject for SchoolMaterial
+    public GameObject SchoolMaterial;
     
     // Start is called before the first frame update
     void Start()
@@ -22,6 +29,14 @@ public class SchoolMaterialMovement : MonoBehaviour
     void Update()
     {
         transform.Translate(Vector2.right * Time.deltaTime * speed);
+
+        //Count prefabs inside SchoolMaterial
+        int count = SchoolMaterial.transform.childCount;
+        if(count == 0) {
+            //Call the win method
+            win();
+        }
+
     }
 
     private void OnTriggerEnter2D(Collider2D other) {
@@ -46,6 +61,22 @@ public class SchoolMaterialMovement : MonoBehaviour
             // play the explosion sound
             destroySource.clip = destroySound;
             destroySource.Play();
+            // add 1 point to the score
         }
+
+    }
+
+    //Create a win method when the player wins
+    public void win() {
+        VictoryPanel.SetActive(true);
+        Time.timeScale = 0;
+    }
+
+    //Create method to continue to the next level
+    public void Continue() {
+        //Set the TimeScale to 1
+        Time.timeScale = 1;
+        //Load the next scene
+        SceneManager.LoadScene(0);
     }
 }
