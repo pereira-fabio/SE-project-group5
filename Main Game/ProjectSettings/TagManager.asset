@@ -23,11 +23,11 @@ TagManager:
   - 
   - SolidObjects
   - Interactable
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Pacman
+  - Ghost
+  - Pellet
+  - Obstacle
+  - Node
   - 
   - 
   - 
