@@ -12,8 +12,6 @@ public class SchoolMaterialMovement : MonoBehaviour
     public AudioSource destroySource;
     //Add a sound to the object
     public AudioClip destroySound;
-    //Create a variable for the score
-    public int score = 0;
     //Create variable for VicotryPanel
     public GameObject VictoryPanel;
     //Set GameObject for SchoolMaterial
@@ -61,7 +59,6 @@ public class SchoolMaterialMovement : MonoBehaviour
             // play the explosion sound
             destroySource.clip = destroySound;
             destroySource.Play();
-            // add 1 point to the score
         }
 
     }
