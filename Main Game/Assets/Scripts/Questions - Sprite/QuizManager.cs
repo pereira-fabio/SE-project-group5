@@ -26,6 +26,7 @@ public class QuizManager : MonoBehaviour
     {
         Quizpanel.SetActive(false);
         GoPanel.SetActive(true);
+        StateValueConrtoller.stateValue += (score*3); 
         ScoreTxt.text = score + "/" + totalQuestions;
     }
 

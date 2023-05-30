@@ -1,12 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public enum GameState {FreeRoam, Dialog}; 
 
 public class GameController : MonoBehaviour
 {
     [SerializeField] PlayerController playerController;
+    public Text ectsText;
 
     GameState state;
 
@@ -23,10 +25,8 @@ public class GameController : MonoBehaviour
         };
     }
 
-
-
-
     private void Update(){
+        ectsText.text = StateValueConrtoller.stateValue.ToString();
         if(state == GameState.FreeRoam){
             playerController.HandleUpdate();
         }
