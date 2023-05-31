@@ -35,7 +35,7 @@ Enjoy the nostalgic journey through retro gaming as you strive to escape the roo
 # Videos
 Comercial: https://youtu.be/9TzSMLviUUY
 
-Explainer Video:
+Explainer Video: https://youtu.be/CI3yyeT7NZY
 
 # Developers
 PEREIRA ALVES Fabio Rafael - 020107571C
