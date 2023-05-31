@@ -40,6 +40,6 @@ Explainer Video:
 # Developers
 PEREIRA ALVES Fabio Rafael - 020107571C
 
-CARVALHO PEREIRA Diogo -
+CARVALHO PEREIRA Diogo - 0201760657
 
 WOJSZNIS Piotr -
