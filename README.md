@@ -3,6 +3,10 @@
 
 [Play Game](#Play)
 
+[Videos](#Videos)
+
+[Developers](#Developers)
+
 # Pixely 
 
 ## Description
@@ -26,4 +30,13 @@ Enjoy the nostalgic journey through retro gaming as you strive to escape the roo
 # Play
 1. Download the zip folder from github.
 2. Unzip the folder
-3. Go to Windows and run the .exe file. 
+3. Go to Windows and run the My Project.exe file. 
+
+# Videos
+Comercial: https://youtu.be/9TzSMLviUUY
+Explainer Video:
+
+# Developers
+PEREIRA ALVES Fabio Rafael - 020107571C
+CARVALHO PEREIRA Diogo -
+WOJSZNIS Piotr -
